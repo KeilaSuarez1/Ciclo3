@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -35,7 +37,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
             Bus = repositorioBuses.Update(Bus);
             }
-            return Page();
+             return RedirectToPage("./List");
         }
 
     }

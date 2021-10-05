@@ -37,7 +37,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
             Ruta = repositorioRutas.Update(Ruta);
             }
-            return Page();
+             return RedirectToPage("./List");
         }
     }
 }

@@ -37,7 +37,8 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
             Estacion = repositorioEstaciones.Update(Estacion);
             }
-            return Page();
+            return RedirectToPage("./List");
         }
     }
 }
+
