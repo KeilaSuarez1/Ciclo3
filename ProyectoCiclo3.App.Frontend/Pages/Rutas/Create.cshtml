@@ -6,11 +6,23 @@
 <div class="text-center">
     <form method="POST">
         <label for="origen" class="form-label">Origen:</label>
-        <input type="number" class="form-control" id="origen" name="origen" placeholder="Origen">
+        <select asp-for="Ruta.origen" class="form-control" required>
+        <option value="">Selecciona el origen</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+            <option value="@estacion.id">@estacion.nombre</option>
+        }
+        </select>
         <label for="destino" class="form-label">Destino:</label>
-        <input type="number" class="form-control" id="destino" name="destino" placeholder="Destino">
+        <select asp-for="Ruta.destino" class="form-control" required>
+        <option value="">Selecciona el destino</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+            <option value="@estacion.id">@estacion.nombre</option>
+        }
+        </select>
         <label for="tiempo_estimado" class="form-label">Tiempo Estimado:</label>
-        <input type="number" class="form-control" id="tiempo_estimado" name="tiempo_estimado" placeholder="Tiempo Estimado">
+        <input type="number" class="form-control" id="tiempo_estimado" asp-for="Ruta.tiempo_estimado" placeholder="Tiempo Estimado">
         <hr>
         <button type="submit" class="btn btn-outline-primary">Enviar</button>
         <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
