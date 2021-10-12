@@ -29,10 +29,11 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("marca")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("modelo")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("modelo")
+                        .HasColumnType("int");
 
                     b.Property<int>("numero_asientos")
                         .HasColumnType("int");
