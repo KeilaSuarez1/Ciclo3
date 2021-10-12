@@ -8,14 +8,22 @@
   <label for="Marca" class="form-label">Marca:</label>
   <input type="text" class="form-control" placeholder="Marca" asp-for="Bus.marca">
   <span class="text-danger" asp-validation-for="Bus.marca"></span>
+
   <label for="Modelo" class="form-label">Modelo:</label>
   <input type="number" class="form-control" id="modelo"  placeholder="Modelo" asp-for="Bus.modelo">
+   <span class="text-danger" asp-validation-for="Bus.modelo"></span>
+
   <label for="Kilometraje" class="form-label">Kilometraje:</label>
   <input type="number" class="form-control" id="kilometraje"  placeholder="Kilometraje" asp-for="Bus.kilometraje">
+  <span class="text-danger" asp-validation-for="Bus.kilometraje"></span>
+
   <label for="Número de asientos" class="form-label">Número de asientos:</label>
   <input type="number" class="form-control" id="numero_asientos"  placeholder="Número de asientos" asp-for="Bus.numero_asientos">
+  <span class="text-danger" asp-validation-for="Bus.numero_asientos"></span>
+
   <label for="Placa" class="form-label">Placa:</label>
   <input type="text" class="form-control" id="placa"  placeholder="Placa" asp-for="Bus.placa">
+  <span class="text-danger" asp-validation-for="Bus.placa"></span>
   <hr>
   <button type="submit" class="btn btn-outline-primary">Enviar</button>
   <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
