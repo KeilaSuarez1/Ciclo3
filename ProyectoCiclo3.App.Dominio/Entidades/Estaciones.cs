@@ -1,7 +1,10 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace ProyectoCiclo3.App.Dominio{
     public class Estaciones{
         public int id {get;set;}
+        [Required]
         public string nombre {get; set;}
         public string direccion {get; set;}
         public int coord_x {get; set;}
