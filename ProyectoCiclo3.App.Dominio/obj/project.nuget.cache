@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "t7dGrMULPzSg/yYqvIPnv/jusktEcXXsGzyrNe1UOPkKfu/Z3//bUl4jHzBDX+hjG0QEvCQODf9UWRVApFpjAw==",
+  "dgSpecHash": "ylQEQoSr4TN08fUT36Pjv4YjJ76wwLGgvmp3UkMOCaIoFAnHsHVkTPI7sGs+NVSKJ77bseHjfybvagCFkG7Omg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lacor\\Desktop\\Proyecto Grupal Ciclo 3\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Dany-\\Desktop\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lacor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\lacor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\lacor\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Dany-\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dany-\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dany-\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

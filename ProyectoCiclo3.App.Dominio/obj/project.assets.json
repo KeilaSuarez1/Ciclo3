@@ -280,19 +280,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lacor\\.nuget\\packages\\": {}
+    "C:\\Users\\Dany-\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lacor\\Desktop\\Proyecto Grupal Ciclo 3\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Dany-\\Desktop\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
       "projectName": "ProyectoCiclo3.App.Dominio",
-      "projectPath": "C:\\Users\\lacor\\Desktop\\Proyecto Grupal Ciclo 3\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\lacor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lacor\\Desktop\\Proyecto Grupal Ciclo 3\\Ciclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Dany-\\Desktop\\Ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Dany-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dany-\\Desktop\\Ciclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lacor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dany-\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
