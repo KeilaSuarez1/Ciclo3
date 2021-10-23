@@ -39,6 +39,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("placa")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
@@ -63,6 +64,7 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("nombre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("tipo")
